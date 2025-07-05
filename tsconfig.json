@@ -8,7 +8,11 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": true,
+            "paths": {
+                "services/*": ["web/services/*"]
+            },
         "outDir": "dist",
+        "rootDir": ".",
         "moduleResolution": "node",
         "allowJs": false,
         "allowSyntheticDefaultImports": false,
